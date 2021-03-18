@@ -8,7 +8,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YMAL file may be used to install only certain pieces of it, such as Filebeat.
 
-https://github.com/JustinJackson2021/Project1.git
+https://github.com/JustinJackson2021/Project1/tree/main/Ansible
 
 1. Ansible Configuration
 2. Ansible ELK Installation and VM Configuration
@@ -18,7 +18,7 @@ https://github.com/JustinJackson2021/Project1.git
 6. Ansible Metricbeat Config file
 
 This document contains the following details:
-- Description of the Topologu
+- Description of the Topology
 - Access Policies
 - ELK Configuration
   - Beats in Use
@@ -49,7 +49,7 @@ What does Metricbeat record?
 Metricbeat is a lightweight shipper that records and periodically collects metrics from the operating system and from services running on the server and takes the metrics and statistics that it collects and ships them to the output that users specify, such as Elasticsearch or Logstash.
 
 The configuration details of each machine may be found below.
-_Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
+(http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
@@ -84,11 +84,17 @@ A summary of the access policies in place can be found in the table below.
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
 - What is the main advantage of automating configuration with Ansible?
+
 1.Free: Ansiable is an open source tool
+
 2.Very simple to set up an use: dont really need any speical coding skills to use the playbook
+
 3.Powerful: allows users to model highly complex IT work
+
 4.Flexible: User can customize it to their needs and and can access it no matter where it is deployed.
+
 5.Agentless: Don't need to install software or firewall ports. Also don't need to set up seperarte manegment structure.
+
 6.Efficent: Don't need to install any extra software.
 
 The playbook implements the following tasks:
