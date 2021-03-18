@@ -2,7 +2,9 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+
+(https://user-images.githubusercontent.com/80436108/111563317-5e602680-875d-11eb-9586-27d48e1394d7.jpg)
+
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the YMAL file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -99,6 +101,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
+![image](https://user-images.githubusercontent.com/80436108/111563537-beef6380-875d-11eb-832f-18676ce3c5c2.png)
 
 
 
